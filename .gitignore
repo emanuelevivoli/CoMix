@@ -1,0 +1,54 @@
+*.egg-info
+*.egg
+*.pyc
+*.pyo
+
+# IDE
+__pycache__/
+.vscode/
+.idea/
+
+# Model weights
+benchmarks/weights
+
+# Datasets
+data/
+data/datasets
+data/datasets.unify
+data/datasets.coco
+data/datasets.cvat
+# Processed datasets
+data/checked.cvat
+data/comix.unify
+data/comix.coco
+data/comix.yolo
+# Predictions
+data/predicts.coco
+data/predicts.caps
+data/pred.speaker
+data/transcripts
+
+# Output images and tables
+out
+
+notebooks
+
+zip-coco
+*_downloads/
+
+secret/
+runs/
+outputs/
+wandb/
+lightning_logs/
+
+# Cache
+.cache
+
+# submodule
+modules/
+modules/mloader
+modules/comic-dl
+
+# generated files
+*.xlsx
