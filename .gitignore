@@ -12,6 +12,7 @@ __pycache__/
 benchmarks/weights
 
 # Datasets
+data
 data/
 data/datasets
 data/datasets.unify
