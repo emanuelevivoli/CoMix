@@ -12,31 +12,72 @@ The source code and framework provided in this repository are licensed under the
 A copy of the full GPLv3 license can be found here:  
 https://www.gnu.org/licenses/gpl-3.0.en.html
 
-## 2. Trained Model License (CC BY-NC-SA 4.0)
-The trained models shared in the external **[Drive folder]** are released under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)** license.
+---
 
-### Summary of CC BY-NC-SA 4.0:
-- You are free to **use, modify, and redistribute** the trained models.
+## 2. Trained Model License
+
+### 2.1. Manga109-Based Models (CC BY-NC-SA 4.0)
+The models trained on Manga109 data (indicated with "m109" or "mix" suffix in their name) are licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)** license due to their use of the **Manga109 dataset**.
+Examples are:
+- `faster_rcnn-m109-best-10052024_094048.pth`
+- `faster_rcnn-mix-best-10052024_112437.pth`
+- `yolov8xft1-m109.pt`
+- `yolov8xft1-mix.pt`
+- `ssd300_manga109_20240509_011331`
+- `ssd300_mix_20240509_125629`
+
+#### Summary of CC BY-NC-SA 4.0:
+- You are free to **use, modify, and redistribute** these weights.
 - **NonCommercial**: You may not use the models for commercial purposes.
-- **ShareAlike**: If you modify or build upon the models, you must distribute your new models under the same license.
+- **ShareAlike**: If you modify or build upon these models, you must distribute your new models under the same license.
 
 Full details can be found at:  
 https://creativecommons.org/licenses/by-nc-sa/4.0/
 
+---
+
+### 2.2. DASS Models (Apache License 2.0)
+The following models, located in the **DASS folder** in the shared drive, are licensed under the **Apache License 2.0**.
+
+#### Summary of Apache License 2.0:
+- You are free to **use, modify, and distribute** these models.
+- Both **commercial and non-commercial use are allowed**.
+- Attribution to the original authors must be provided.
+
+A copy of the full Apache License 2.0 can be found here:  
+https://www.apache.org/licenses/LICENSE-2.0
+
+---
+
+### 2.3. Other Models (CC BY-SA 4.0)
+All other trained models that are not based on the Manga109 dataset or the DASS folder are released under the **Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)** license.
+
+#### Summary of CC BY-SA 4.0:
+- You are free to **use, modify, and redistribute** these weights.
+- **Commercial use is allowed**.
+- **ShareAlike**: If you modify or build upon these models, you must distribute your new models under the same license.
+
+Full details can be found at:  
+https://creativecommons.org/licenses/by-sa/4.0/
+
+---
+
 ## 3. Dataset Handling and Manga109 Limitations
-The framework allows users to process **existing datasets and their own datasets** but does not redistribute copyrighted datasets. As such, all the datasets used **are not included in this repository**.
+The framework allows users to process **existing and their datasets** but does not redistribute copyrighted datasets. As such, all the datasets used **are not included in this repository**.
 
 ### Manga109-Specific Restrictions:
 - The **Manga109 dataset** (https://www.manga109.org/en/) is used in training some of the weights (specifically, the one with the suffix "-m109" in their name).
 - The **Manga109 dataset is restricted to academic use only**.
 - Users are responsible for ensuring compliance with **Manga109's license** if they choose to use it, or to use the weights trained on it.
 
+---
+
 ## 4. Attribution
 When using this project, please **cite the papers below** and acknowledge this repository as:
-**"[CoMix]: Comics Dataset Framework for Comics Understanding"** by **[Emanuele Vivoli]**, released under **GPLv3 and CC BY-NC-SA**.
+**"[CoMix]: Comics Dataset Framework for Comics Understanding"** by **[Emanuele Vivoli]**, released under **GPLv3 and CC BY-NC-SA/CC BY-SA/Apache 2.0**.
 
-and cite the following:
-"""
+Additionally, please cite the following works:
+```bibtex
 @misc{CoMix,
   author       = {Emanuele Vivoli},
   title        = {CoMix: Comics Dataset Framework for Comics Understanding},
@@ -66,11 +107,9 @@ and cite the following:
   booktitle={ICDAR},
   year={2024},
 }
-"""
+```
 
-## 5. Disclaimer
+5. Disclaimer
 This project is provided "as is" without any warranties. The authors are not responsible for any issues arising from its use.
 
----
-
-For questions or contributions, CONTACT THE AUTHORS at comics@cvc.uab.cat
+For questions or contributions, CONTACT THE AUTHORS at comics@cvc.uab.cat.
