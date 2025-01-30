@@ -1,0 +1,76 @@
+# License for the Comics Processing Framework
+
+## 1. Code and Framework License (GPLv3)
+The source code and framework provided in this repository are licensed under the **GNU General Public License v3.0 (GPLv3)**.
+
+### Summary of GPLv3:
+- You are free to **use, modify, and distribute** this software.
+- Any modifications **must be released under the same GPLv3 license**.
+- You **cannot** make proprietary versions based on this software.
+- Provides **patent protection** against claims from contributors.
+
+A copy of the full GPLv3 license can be found here:  
+https://www.gnu.org/licenses/gpl-3.0.en.html
+
+## 2. Trained Model License (CC BY-NC-SA 4.0)
+The trained models shared in the external **[Drive folder]** are released under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)** license.
+
+### Summary of CC BY-NC-SA 4.0:
+- You are free to **use, modify, and redistribute** the trained models.
+- **NonCommercial**: You may not use the models for commercial purposes.
+- **ShareAlike**: If you modify or build upon the models, you must distribute your new models under the same license.
+
+Full details can be found at:  
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+## 3. Dataset Handling and Manga109 Limitations
+The framework allows users to process **existing datasets and their own datasets** but does not redistribute copyrighted datasets. As such, all the datasets used **are not included in this repository**.
+
+### Manga109-Specific Restrictions:
+- The **Manga109 dataset** (https://www.manga109.org/en/) is used in training some of the weights (specifically, the one with the suffix "-m109" in their name).
+- The **Manga109 dataset is restricted to academic use only**.
+- Users are responsible for ensuring compliance with **Manga109's license** if they choose to use it, or to use the weights trained on it.
+
+## 4. Attribution
+When using this project, please **cite the papers below** and acknowledge this repository as:
+**"[CoMix]: Comics Dataset Framework for Comics Understanding"** by **[Emanuele Vivoli]**, released under **GPLv3 and CC BY-NC-SA**.
+
+and cite the following:
+"""
+@misc{CoMix,
+  author       = {Emanuele Vivoli},
+  title        = {CoMix: Comics Dataset Framework for Comics Understanding},
+  year         = {2025},
+  publisher    = {GitHub},
+  journal      = {GitHub repository},
+  howpublished = {\url{https://github.com/emanuelevivoli/CoMix}}
+}
+
+@article{Vivoli2024CoMixAC,
+  title={CoMix: A Comprehensive Benchmark for Multi-Task Comic Understanding},
+  author={Emanuele Vivoli and Marco Bertini and Dimosthenis Karatzas},
+  journal={NeurIPS},
+  year={2024},
+}
+
+@article{vivoli2024comicap,
+  title={ComiCap: A VLMs pipeline for dense captioning of Comic Panels},
+  author={Vivoli, Emanuele and Biondi, Niccol{\`o} and Bertini, Marco and Karatzas, Dimosthenis},
+  journal={ECCV},
+  year={2024}
+}
+
+@inproceedings{Vivoli2024ComicsDF,
+  title={Comics Datasets Framework: Mix of Comics datasets for detection benchmarking},
+  author={Emanuele Vivoli and Irene Campaioli and Mariateresa Nardoni and Niccol{\'o} Biondi and Marco Bertini and Dimosthenis Karatzas},
+  booktitle={ICDAR},
+  year={2024},
+}
+"""
+
+## 5. Disclaimer
+This project is provided "as is" without any warranties. The authors are not responsible for any issues arising from its use.
+
+---
+
+For questions or contributions, CONTACT THE AUTHORS at comics@cvc.uab.cat
