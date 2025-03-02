@@ -8,7 +8,7 @@ Create a subfolder `weights` inside `benchmarks`. Now inside `weights` create th
 Regarding `dass` and `faster-rcnn` put all the `.pth` files in the corresponding folders. Instead, in `yolov8` put ONLY `yolov8x-best.pt`, `yolov8x-c100.pt`, `yolov8x-m109.pt` and `yolov8x-mix.pt`.
 
 All predictions will be stored in `data/predicts.coco`.
-For semplicity, we are going to create a `conda` environment for all the scripts that are needed and in order to install every dependency.
+For simplicity, we are going to create a `conda` environment for all the scripts that are needed and in order to install every dependency.
 
 ### DASS
 
