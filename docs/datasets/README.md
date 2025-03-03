@@ -58,15 +58,15 @@ $ python comix/process/manga109.py
 which has the following arguments:
 - `--input-path`: path to the Manga109 folder (default: `data/datasets/Manga109`)
 - `--output-path`: path to the output folder (default: `data/datasets.unify/Manga109`)
-- `--override`: override the existing images, annotations are always overritten (default: `False`)
+- `--override`: override the existing images, annotations are always overwritten (default: `False`)
 - `--limit`: stop after the first `{limit}` books (default: `None`)
 
 ### DCM
 
-After downloading, unzip `DCM_dataset_public_images.zip` into the folder `datasets`. Rename the extracted directory as `DCM` and delete the zip file.
+After downloading the dataset from [here](https://gitlab.univ-lr.fr/crigau02/dcm-dataset), unzip `DCM_dataset_public_images.zip` into the folder `datasets`. Rename the extracted directory as `DCM` and delete the zip file.
 
 #### Convert images
-The DCM dataset, needs to be preprocessed before converted into the unified format. To preprocess the DCM dataset (jpg renaming) and then convert images to the unified format, run the following command:
+The DCM dataset needs to be preprocessed before being converted into the unified format. To preprocess the DCM dataset (jpg renaming) and then convert images to the unified format, run the following command:
 ```bash
 $ python comix/process/dcm.py
 ```
@@ -84,7 +84,7 @@ datasets/
 ```
 
 #### Convert images
-The Comics dataset, needs to be preprocessed before converted into the unified format. To preprocess the Comics dataset (jpg renaming) and then convert images to the unified format, run the following command:
+The Comics dataset needs to be preprocessed before being converted into the unified format. To preprocess the Comics dataset (jpg renaming) and then convert images to the unified format, run the following command:
 ```bash
 $ python comix/process/comics.py
 ```
@@ -98,11 +98,11 @@ To download the dataset, please refer to [magi repository](https://github.com/ra
 
 #### Convert images
 
-Now, you can convert the images of comics to the unified format running the following command:
+Now, you can convert the images of comics to the unified format by running the following command:
 ```bash
 $ python comix/process/popmanga.py
 ```
 
 ### SPLITS
 
-In the path `data/datasets.unify/name_of_the_dataset/splits` are available the splits for every dataset except for `Manga109`. In particular `val.csv` and `test.csv` are available for every dataset. Furthermore, in `comics` there is also `train.csv`
+In the path `data/datasets.unify/name_of_the_dataset/splits` the splits are available for every dataset except for `Manga109`. In particular `val.csv` and `test.csv` are available for every dataset. Furthermore, in `comics` there is also `train.csv`
