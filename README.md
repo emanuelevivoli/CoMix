@@ -49,7 +49,7 @@ In general, this project is divided into the following steps:
 ## Model performances and evaluation
 In the `benchmarks` folder, we have multiple scripts to benchmark the models on the datasets, on various tasks.
 The detection scripts produce a COCO-format json file which can be used by the `comix/evaluators/detection.py` script to evaluate the performances of the models.
-The captioning scripts produce multiple `.txt` files, which can be postprocess to obtain a `captions.csv` and `objects.csv` files, used by the `comix/evaluators/captioning.py` script to evaluate the performances of the models.
+The captioning scripts produce multiple `.txt` files, which can be postprocessed to obtain a `captions.csv` and `objects.csv` files, used by the `comix/evaluators/captioning.py` script to evaluate the performances of the models.
 
 ## Documentation
 
