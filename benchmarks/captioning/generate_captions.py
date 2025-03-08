@@ -58,7 +58,7 @@ from transformers import AutoModelForVision2Seq
 from transformers.image_utils import load_image
 from qwen_vl_utils import process_vision_info  # Ensure this is correctly installed
 
-from utils.prompt import (
+from prompts import (
     base_prompt,
     minicpm26_prompt,
     idefics2_prompt
