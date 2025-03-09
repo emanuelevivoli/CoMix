@@ -41,7 +41,7 @@ weights_file -> choices =['m109', 'dcm', 'mixdata']
 
 ### Faster R-CNN
 
-Create the `conda` environment and activate it (remeber to deactivate the conda environment you were using before!):
+Create the `conda` environment and activate it (remember to deactivate the conda environment you were using before!):
 ```bash
 $ conda create -n faster python=3.8
 $ conda activate faster
@@ -65,7 +65,7 @@ weights_file -> choices =['faster_rcnn-c100-best-10052024_092536.pth', 'faster_r
 
 ### YOLOv8
 
-Create the `conda` environment and activate it (remeber to deactivate the conda environment you were using before!):
+Create the `conda` environment and activate it (remember to deactivate the conda environment you were using before!):
 ```bash
 $ conda create -n yolo python=3.8
 $ conda activate yolo
@@ -90,7 +90,7 @@ weights_file -> choices =['yolov8x-best.pt', 'yolov8x-c100.pt',
 
 ### GroundingDINO
 
-Create the `conda` environment and activate it (remeber to deactivate the conda environment you were using before!):
+Create the `conda` environment and activate it (remember to deactivate the conda environment you were using before!):
 ```bash
 $ conda create -n dino python=3.8
 $ conda activate dino
@@ -112,7 +112,7 @@ split_name -> choices = ['all', 'val', 'test']
 
 ### Magi
 
-Create the `conda` environment and activate it (remeber to deactivate the conda environment you were using before!):
+Create the `conda` environment and activate it (remember to deactivate the conda environment you were using before!):
 ```bash
 $ conda create -n magi python=3.8
 $ conda activate magi
