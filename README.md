@@ -15,6 +15,8 @@ The purpose of this project is to replicate (on the validation set) the benchmar
 - [x] (detection) [Comics Datasets Framework: Mix of Comics datasets for detection benchmarking](https://arxiv.org/abs/2407.03540)
 - [ ] (multitask) [CoMix: A Comprehensive Benchmark for Multi-Task Comic Understanding](https://arxiv.org/abs/2407.03550)
 - [x] (captioning) [ComiCap: A VLMs pipeline for dense captioning of Comic Panels](https://arxiv.org/abs/2409.16159)
+- [ ] (multi-choice) [ComicsPAP: understanding comic strips by picking the correct panel](https://arxiv.org/abs/2503.08561)
+- [ ] (multipage) [CoSMo: A Multimodal Transformer for Page Stream Segmentation in Comic Books](https://arxiv.org/abs/2407.03550)
 
 In particular, one of the main limitation when working in Comics/Manga datasets is the impossibility to share images.
 To overcome this problem, we have created this framework that allows to use our (validation) annotations, and download the images from the original sources, without breaking the licenses.
@@ -83,3 +85,14 @@ Here are the most important documents:
         - [docs/tasks/captioning/generation.md](docs/tasks/captioning/generation.md)
         - [docs/tasks/captioning/postprocessing.md](docs/tasks/captioning/postprocessing.md)
         - [docs/tasks/captioning/evaluation.md](docs/tasks/captioning/evaluation.md)
+
+
+## Acknowledge
+All these projects have been possible only with the help of multiple collaborators:
+- [Joan LaFuente Baeza](https://github.com/joanlafuente) for 
+- [Irene Campaioli](https://dblp.org/pid/382/4686.html) for the Comics Datasets Framework, annotation and benchmarking
+- [Mariateresa Nardoni](https://dblp.org/pid/382/5211.html) for the Comics Datasets Framework, annotation and benchmarking
+- [Niccolò Biondi](https://scholar.google.com/citations?user=B7VHm9UAAAAJ&hl=en) for the Comics Datasets Framework and ComiCap Captioning paper
+- [Artemis Llabrés](https://scholar.google.com/citations?user=0VToXYcAAAAJ&hl=en) for ComicsPAP dataset, model, and benchmarks
+- [Lorenzo Fioravanti](/#link_to_add) for Data scraping, processing, and curation for CoSMo
+- [Marc Serra Ortega](https://www.linkedin.com/in/marc-serra-ortega) for CoSMo paper, all things from data curation to model training
