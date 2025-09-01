@@ -94,5 +94,5 @@ All these projects have been possible only with the help of multiple collaborato
 - [Mariateresa Nardoni](https://dblp.org/pid/382/5211.html) for the Comics Datasets Framework, annotation and benchmarking
 - [Niccolò Biondi](https://scholar.google.com/citations?user=B7VHm9UAAAAJ&hl=en) for the Comics Datasets Framework and ComiCap Captioning paper
 - [Artemis Llabrés](https://scholar.google.com/citations?user=0VToXYcAAAAJ&hl=en) for ComicsPAP dataset, model, and benchmarks
-- [Lorenzo Fioravanti](www.linkedin.com/in/lorenzo-fioravanti-177ba7303) for Data scraping, processing, and curation for CoSMo
+- [Lorenzo Fioravanti](https://www.linkedin.com/in/lorenzo-fioravanti-177ba7303) for Data scraping, processing, and curation for CoSMo
 - [Marc Serra Ortega](https://www.linkedin.com/in/marc-serra-ortega) for CoSMo paper, all things from data curation to model training
